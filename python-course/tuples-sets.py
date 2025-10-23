@@ -13,7 +13,7 @@ clusterColors = {"Orange", "Green", "Purple"}
 print(type(clusterColors))
 
 for cc in clusterColors:
-    print(clusterColors)
+    print(cc)
 
 clusterColors.discard("Gray") # var mı yok mu ara, hata vermez
 print(clusterColors)
