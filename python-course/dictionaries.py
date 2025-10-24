@@ -15,10 +15,10 @@ print(example["Name"]) # name'i getir
 example.update({"Name" : "Gülsena", "Age" : 24}) # name'i değiştir
 print(example["Name"])
 
-example["id"] = 1 # id etiketi dıştan eklendi
+example["id"] = 1 # id'i dıştan ekle
 print(example)
 
-del example["id"] # sil
+del example["id"] # id'i sil
 print(example)
 
 
