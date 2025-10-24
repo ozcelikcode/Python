@@ -25,7 +25,7 @@ print(example)
 print(example.keys())
 
 
-# Değeri tam ve alt alta gösterme
+# Değeri tam ve alt alta göstermek
 for k,v in example.items():
     print(k,v)
 
