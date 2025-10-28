@@ -52,10 +52,10 @@ print("")
 
 y = 1
 
-while True: # 1'den 100'e kadar yazdır
+while True: # 1'den 101'e kadar yazdır
     print(y)
     y += 1
-    if y == 100:
+    if y == 101:
         break
 
 print("")
