@@ -55,7 +55,7 @@ y = 1
 while True: # 1'den 100'e kadar yazdır
     print(y)
     y += 1
-    if y == 120:
+    if y == 100:
         break
 
 print("")
