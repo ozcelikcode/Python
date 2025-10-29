@@ -70,3 +70,8 @@ for letter in text:
         dictionary[letter] = 1
 for letter, piece in dictionary.items():
     print(letter, piece)
+
+
+
+# NOT: normalde bir kaç tane daha örnek vardı ve zordu, bu nedenle de yazmadım, bu konuyu da çok iyi anladığımı söyleyemem.
+# 29.10.2025 - 23.45 | iş yerinde
