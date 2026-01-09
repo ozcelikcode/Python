@@ -24,3 +24,4 @@ os.rename("lists.py", "lesson3-lists.py")
 os.rename("GEREKSIZ_DOSYA.txt", "\python-course\Klasor-1") # taşınır
 
 # konu hakkında daha fazla bilgi için: https://www.youtube.com/watch?v=FwpD9m9jWRo&list=PPSV
+## os.chdir hata veriyor ilginç bir şekilde. Videoda mac ile gösterilmiş.
