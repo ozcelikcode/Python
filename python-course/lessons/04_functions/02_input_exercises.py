@@ -73,5 +73,17 @@ for letter, piece in dictionary.items():
 
 
 
+text2 = "aba"
+
+dictionary2 = dict()
+
+for letter in text2:
+    if letter in dictionary2:
+        dictionary2[letter] += 1
+    else:
+        dictionary2[letter] = 1
+for letter, piece in dictionary2.items():
+    print(letter, piece)
+
 # NOT: normalde bir kaç tane daha örnek vardı ve zordu, bu nedenle de yazmadım, bu konuyu da çok iyi anladığımı söyleyemem.
 # 29.10.2025 - 23.45 | iş yerinde
