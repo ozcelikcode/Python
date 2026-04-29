@@ -59,17 +59,17 @@
 
 
 
-text = input("Metin sayımı için yazınız: ")
+# text = input("Metin sayımı için yazınız: ")
 
-dictionary = dict()
+# dictionary = dict()
 
-for letter in text:
-    if letter in dictionary:
-        dictionary[letter] += 1
-    else:
-        dictionary[letter] = 1
-for letter, piece in dictionary.items():
-    print(letter, piece)
+# for letter in text:
+#    if letter in dictionary:
+#        dictionary[letter] += 1
+#    else:
+#        dictionary[letter] = 1
+# for letter, piece in dictionary.items():
+#    print(letter, piece)
 
 
 
