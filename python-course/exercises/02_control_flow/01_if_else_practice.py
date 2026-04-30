@@ -16,10 +16,8 @@ if number < 0:
     print("Negatif")
 elif number == 0:
     print("Sıfır")
-elif number > 0:
-    print("Pozitif")
 else:
-    print("Hatalı sayı girdiniz")
+    print("Pozitif")
 
 
 # Alistirma 2:
