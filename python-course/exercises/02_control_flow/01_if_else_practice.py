@@ -27,10 +27,11 @@ else:
 # - number % 2 == 0 ise "Cift"
 # - degilse "Tek"
 
-# if number % 2 == 0:
-#     print("Cift")
-# else:
-#     print("Tek")
+
+if number % 2 == 0:
+    print("Çift")
+else:
+    print("Tek")
 
 
 # Alistirma 3:
@@ -40,19 +41,20 @@ else:
 # - 70-79: "C"
 # - 60-69: "D"
 # - 0-59: "F"
-#
-# score = int(input("Not gir: "))
-#
-# if score >= 90:
-#     print("A")
-# elif score >= 80:
-#     print("B")
-# elif score >= 70:
-#     print("C")
-# elif score >= 60:
-#     print("D")
-# else:
-#     print("F")
+
+score = int(input("Not gir: "))
+
+if score >= 90:
+    print("A")
+elif score >= 80:
+    print("B")
+elif score >= 70:
+    print("C")
+elif score >= 60:
+    print("D")
+else:
+    print("F")
+
 
 
 # Bonus soru:
@@ -60,10 +62,12 @@ else:
 # - isim "admin" ise "Hos geldin admin"
 # - baska bir sey ise "Taninmayan kullanici"
 
-# name = "admin"
-#
-# if name == "admin":
-#     print("Hos geldin admin")
-# else:
-#     print("Taninmayan kullanici")
 
+name = input("Kullanıcı adınızı giriniz: ")
+
+if name == "admin":
+    print("Yönetim paneline hoş geldiniz: " + name)
+elif name == "ahmet":
+    print("Siteye hoş geldiniz: " + name)
+else:
+    print("Misafir olarak giriş yaptınız: " + name)
