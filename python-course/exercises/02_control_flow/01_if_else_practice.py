@@ -10,15 +10,16 @@
 # - 0 ise "Sifir"
 # - 0'dan buyukse "Pozitif"
 
-# number = int(input("Bir sayi gir: "))
-#
-# if number < 0:
-#     print("Negatif")
-# elif number == 0:
-#     print("Sifir")
-# else:
-#     print("Pozitif")
+number = int(input("Bir sayı giriniz: "))
 
+if number < 0:
+    print("Negatif")
+elif number == 0:
+    print("Sıfır")
+elif number > 0:
+    print("Pozitif")
+else:
+    print("Hatalı sayı girdiniz")
 
 
 # Alistirma 2:
