@@ -15,12 +15,14 @@ for i in number_list:
     print(i)
 
 
+
 # Alistirma 2:
 # MANTIK: range(1, 11) -> 1'den basla, 11'e KADAR git (11 dahil degil)
 #   Yani 10'u dahil etmek icin bitis degerine +1 ekle.
 
 for i in range(1, 11):
     print(i)
+
 
 
 # Alistirma 3:
@@ -35,39 +37,37 @@ for number in mixed_numbers:
         print(number)
 
 
-# Alistirma 4:
-#   x = 1
-#   while x <= 50:
-#       print(x)
-#       x += 5
 
+# Alistirma 4:
 # MANTIK: while, kosul dogruyken calisir.
 #   x <= 50 oldugu surece dongu devam eder.
-#   Her adimda x'e 5 ekle, yoksa sonsuza gider!
+#   Her adimda x'e sayı ekle, yoksa sonsuza gider!
 
+x = 1
+while x <= 50:
+    print(x)
+    x += 10
 
 
 
 # Alistirma 5:
-#   limit = int(input("Bir sayi gir: "))
-#   for i in range(1, limit + 1):
-#       print(i)
-
 # MANTIK: input() her zaman string verir, int(...) ile sayiya ceviriyoruz.
 #   1'den baslayip dahil etmek icin range(1, sayi+1) kullanalim.
 
+limit = int(input("Enter a number: "))
+
+for i in range(1, limit + 1):
+    print(i)
 
 
 
 # Bonus:
-#   for meyve in fruit_list:
-#       if meyve == "elma":
-#           print("Elma bulundu!")
-#           break
-
 # MANTIK: break, donguyu aninda durdurur.
 #   "elma"yi bulunca yazdir ve dur, geriye kalan elemanlara bakma.
 
-fruit_list = ["armut", "cilek", "elma", "muz", "kivivi"]
+fruit_list = ["armutes", "cileks", "elmaa", "muzzo", "kivivi"]
 
-
+for fruit in fruit_list:
+    if fruit == "muzzo":
+        print("Found " + fruit)
+        break
