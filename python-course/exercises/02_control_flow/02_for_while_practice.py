@@ -1,8 +1,4 @@
 # For / While pratigi
-#
-# Bu dosyada amac, for ve while dongu mantigini kendi basina denemek.
-# Once yorumlari oku, anla, sonra kendi basina tekrar yazmaya calis.
-
 
 # Alistirma 1:
 # MANTIK: "for i in liste" der ki:
@@ -63,7 +59,7 @@ for i in range(1, limit + 1):
 
 # Bonus:
 # MANTIK: break, donguyu aninda durdurur.
-#   "elma"yi bulunca yazdir ve dur, geriye kalan elemanlara bakma.
+#   "muzzo"yu bulunca yazdir ve dur, geriye kalan elemanlara bakma.
 
 fruit_list = ["armutes", "cileks", "elmaa", "muzzo", "kivivi"]
 
