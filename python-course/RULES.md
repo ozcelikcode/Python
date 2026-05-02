@@ -62,3 +62,21 @@ Her konu icin su sirayi takip et:
 - Hangi kisim fonksiyon olabilir?
 - Bu kod hatali veri girilirse ne yapar?
 - Benzer bir soruyu yardimsiz cozebilir miyim?
+
+## Egzersiz Dosyası Taslağı
+
+Egzersiz dosyaları aşağıdaki formatta yazılır:
+
+- Yorum satırları Türkçe, Türkçe harflerle yazılır
+- Kodlar İngilizce değişken/fonksiyon isimleri kullanır
+- Referans kod tamamen yorum satırı olarak durur
+- "Anlamı:" kısmı kısa olur, açıklama kodla yapılır
+- Çizgi (---), "kodunu buraya yaz" gibi ifadeler kullanılmaz
+
+```
+# Alıştırma N: Konu başlığı
+# Anlamı:
+#   variable = value       → ne olduğu
+#   variable.method()      → ne yapar
+#   print(variable)        → sonucu gösterir
+```
