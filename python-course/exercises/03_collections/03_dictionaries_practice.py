@@ -7,12 +7,25 @@
 #   person["name"]     → "Alice" döner
 #   person["age"]      → 25 döner
 
+person = {
+    "name": "Sebastian",
+    "age": 25,
+    "city": "Norway"
+}
+
+print("Name:", person["name"], ",",
+      "Age:", person["age"], ",",
+      "City: ", person["city"]
+      )
+
 
 # Alıştırma 2: Değer güncelleme ve ekleme
 # Anlamı:
 #   person["age"] = 26          → mevcut değeri günceller
 #   person["country"] = "TR"    → yeni anahtar ekler
 #   print(person)               → güncel hali gösterir
+
+
 
 
 # Alıştırma 3: Anahtar silme
