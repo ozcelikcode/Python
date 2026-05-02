@@ -10,9 +10,7 @@
 
 colors = ["Black", "White", "Red"]
 
-len(colors)
-
-print(colors)
+print(len(colors))
 
 
 # Alıştırma 2: Ekleme ve silme
@@ -38,8 +36,7 @@ print(fruits)
 
 animals = ["duck", "dog", "cat"]
 for item in animals:
-    item.upper()
-print(animals)
+    print(item.upper())
 
 # Alıştırma 4: min, max, sum
 # Anlamı:
@@ -60,4 +57,4 @@ print(min(numbers))
 
 cities = ["Istanbul", "Amsterdam", "New York"]
 
-"Istanbul" in cities
+print("Istanbul" in cities)
