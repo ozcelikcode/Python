@@ -14,11 +14,7 @@ person = {
     "hobby": "coding python"
 }
 
-print("Name:", person["name"], ",",
-      "Age:", person["age"], ",",
-      "City: ", person["city"], ",",
-      "Hobby: ", person["hobby"]
-      )
+print(f"Name: {person['name']}, Age: {person['age']}, City: {person['city']}")
 
 
 # Alıştırma 2: Değer güncelleme ve ekleme
