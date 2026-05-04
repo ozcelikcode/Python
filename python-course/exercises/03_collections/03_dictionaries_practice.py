@@ -67,3 +67,12 @@ for key, value in scores.items():
 print(person.get("name"))
 print(person.get("state")) # none
 print(person.get("state", "değer yok")) # değer yok
+
+
+# Ödev
+
+# 1. Bir sözlük oluştur İçinde 3 anahtar olsun: name, grade, city Değerlerini kendin belirle. (örn. isim: "Ahmet", not: 70, şehir: "Ankara")
+# 2. Notu 10 artır grade anahtarının değerini al, üzerine 10 ekle, geri yaz. (Alıştırma 2'de age'i 28 yaptığın gibi)
+# 3. Şehri sil city anahtarını sözlükten tamamen kaldır. (Alıştırma 3'te hobby'yi sildiğin gibi)
+# 4. Kalan bilgileri yazdır Sözlüğün son halini ekrana yazdır.
+
