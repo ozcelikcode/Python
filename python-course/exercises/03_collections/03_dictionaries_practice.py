@@ -76,3 +76,13 @@ print(person.get("state", "değer yok")) # değer yok
 # 3. Şehri sil city anahtarını sözlükten tamamen kaldır. (Alıştırma 3'te hobby'yi sildiğin gibi)
 # 4. Kalan bilgileri yazdır Sözlüğün son halini ekrana yazdır.
 
+dictionary = {
+    "name": "Sam",
+    "grade": 82,
+    "city": "New York"
+}
+
+dictionary["grade"] = 92
+del dictionary["city"]
+
+print(dictionary)
