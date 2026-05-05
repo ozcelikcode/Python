@@ -32,8 +32,8 @@ print(result) # 225
 #   print(add(3, 7))       → 10 yazar
 
 def add(a, b):
-    return a / b
-print(add(10, 2)) # a, b => 10 / 2 = 5.0
+    return a + b
+print(add(10, 2)) # a, b => 10 + 2 = 12
 
 
 # Alıştırma 4: Liste alan fonksiyon
@@ -54,5 +54,7 @@ print(find_max([30, 2, 5.2, 80, 10, 500, 500.1]))
 #   greet("Sam", "TR")               → "TR" ile çalışır
 
 def greet(name, language="EN"):
-    greet("Sam")
-    greet("Sam", "TR")
+    print(f"Hello {name}, language: {language}") # EN
+    
+greet("Sam")
+greet("Sam", "TR")
