@@ -43,7 +43,7 @@ print(add(10, 2)) # a, b => 10 + 2 = 12
 #   find_max([4, 8, 15, 23])    → 23 döner
 
 def find_max(numbers):
-    return max(numbers) # max olanı bul
+    return max(numbers) # büyük olanı bul
 print(find_max([30, 2, 5.2, 80, 10, 500, 500.1]))
 
 
