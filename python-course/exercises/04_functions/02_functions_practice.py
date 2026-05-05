@@ -75,3 +75,8 @@ print(only_evens([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 #       return {"name": name, "age": age}
 #   person = make_person("Sam", 25)
 #   print(person["name"])          → "Sam" yazar
+
+def make_person(name, age):
+    return {"name": name, "age": age} # karşılığı gelecek
+person = make_person("John", 23)
+print(person["name"])
