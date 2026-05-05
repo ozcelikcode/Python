@@ -42,9 +42,14 @@ print(add(10, 2)) # a, b => 10 / 2 = 5.0
 #       return max(numbers)     → en büyük değeri döndürür
 #   find_max([4, 8, 15, 23])    → 23 döner
 
+def find_max(numbers):
+    return max(numbers) # max olanı bul
+print(find_max([30, 2, 5.2, 80, 10, 500, 500.1]))
+
 
 # Bonus: Varsayılan parametre değeri
 # Anlamı:
 #   def greet(name, language="EN"):  → language verilmezse "EN" kullanılır
 #   greet("Sam")                     → "EN" ile çalışır
 #   greet("Sam", "TR")               → "TR" ile çalışır
+
