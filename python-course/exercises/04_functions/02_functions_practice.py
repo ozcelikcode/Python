@@ -31,7 +31,7 @@ print(is_even(10))
 
 def print_list(items):
     for item in items:
-        print((item) + " i")
+        print(f"{item} i")
 print_list(["a", "b", "c"])
 
 
