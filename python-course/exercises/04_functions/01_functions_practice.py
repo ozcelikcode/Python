@@ -53,3 +53,6 @@ print(find_max([30, 2, 5.2, 80, 10, 500, 500.1]))
 #   greet("Sam")                     → "EN" ile çalışır
 #   greet("Sam", "TR")               → "TR" ile çalışır
 
+def greet(name, language="EN"):
+    greet("Sam")
+    greet("Sam", "TR")
