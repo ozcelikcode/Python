@@ -7,6 +7,10 @@
 #       print("Hello", name) → çağrılınca bu satırı çalıştırır
 #   greet("Sam")           → fonksiyonu çağır
 
+def greet(name):
+    print("Hello", name)
+greet("Sam")
+
 
 # Alıştırma 2: return kullanan fonksiyon
 # Anlamı:
