@@ -31,3 +31,14 @@ attempts = 0
 #       else:
 #           print(f"Doğru! {attempts} tahminde buldun.")
 #           break                        → doğru tahmin → döngüyü bitir
+
+while True:
+    guess = int(input("Tahmin: "))
+    attempts += 1
+    if guess < secret:
+        print("Daha büyük!")
+    elif guess > secret:
+        print("Daha küçük!")
+    else:
+        print(f"Doğru! {attempts}. tahminde buldun. Doğru sayı {secret}")
+        break
