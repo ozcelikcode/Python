@@ -27,15 +27,17 @@ def divide(a, b):
     return a / b
 
 
-# Adım 2: Kullanıcıdan girdi al
+# Adım 2: Kullanıcıdan girdi al + hata yakala
 # Anlamı:
-#   a = float(input("Birinci sayı: "))    → ondalıklı sayı alır
-#   b = float(input("İkinci sayı: "))
-#   op = input("İşlem (+, -, *, /): ")   → işlem sembolü alır
+#   try:                          → hata verebilecek kodları buraya yaz
+#       a = float(input(...))     → harf girilirse ValueError fırlatır
+#   except ValueError:            → hata olursa buraya atlar, program çökmez
+#       print("Geçersiz giriş")
 
-a = float(input("Birinci Sayı: "))
-b = float(input("İkinci Sayı: "))
-op = input("İşlem (+, -, *, /): ")
+try:
+    a = float(input("Birinci Sayı: "))
+    b = float(input("İkinci Sayı: "))
+    op = input("İşlem (+, -, *, /): ")
 
 
 # Adım 3: İşlemi seç ve sonucu yazdır
@@ -52,14 +54,16 @@ op = input("İşlem (+, -, *, /): ")
 #       result = "Geçersiz işlem"
 #   print(f"Sonuç: {result}")
 
-if op == "+":
-    result = add(a, b)
-elif op == "-":
-    result = subtract(a, b)
-elif op == "*":
-    result = multiply(a, b)
-elif op == "/":
-    result = divide(a, b)
-else:
-    result = "Geçersiz İşlem"
-print(f"Sonuç: {result}")
+    if op == "+":
+        result = add(a, b)
+    elif op == "-":
+        result = subtract(a, b)
+    elif op == "*":
+        result = multiply(a, b)
+    elif op == "/":
+        result = divide(a, b)
+    else:
+        result = "Geçersiz İşlem"
+    print(f"Sonuç: {result}")
+except ValueError:
+    print("Hata: Sayı giriniz!")
