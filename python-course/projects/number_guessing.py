@@ -9,7 +9,7 @@
 #   random.randint(1, 100)     → 1 ile 100 arasında rastgele tam sayı üretir
 
 import random
-random.randint(1, 100)
+
 
 # Adım 2: Gizli sayıyı belirle ve sayacı başlat
 # Anlamı:
@@ -39,6 +39,6 @@ while True:
         print("Daha büyük!")
     elif guess > secret:
         print("Daha küçük!")
-    else:
+    elif guess == secret:
         print(f"Doğru! {attempts}. tahminde buldun. Doğru sayı {secret}")
         break
