@@ -17,11 +17,11 @@
 
 def add(a, b):
     return a + b
-def subsract(a, b):
+def subtract(a, b):
     return a - b
 def multiply(a, b):
     return a * b
-def divide (a, b):
+def divide(a, b):
     if b == 0:
         return "0 bölünemez, hata!"
     return a / b
@@ -55,7 +55,7 @@ op = input("İşlem (+, -, *, /): ")
 if op == "+":
     result = add(a, b)
 elif op == "-":
-    result = substract(a, b)
+    result = subtract(a, b)
 elif op == "*":
     result = multiply(a, b)
 elif op == "/":
