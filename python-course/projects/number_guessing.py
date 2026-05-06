@@ -32,15 +32,6 @@ attempts = 0
 #           print(f"Doğru! {attempts} tahminde buldun.")
 #           break                        → doğru tahmin → döngüyü bitir
 
-difference = abs(guess - secret)
-
-if difference <= 5:
-    print("Çok yakınsın!")
-elif difference <= 20:
-    print("Yakınsın!")
-else:
-    print("Uzaksın")
-
 while True:
     guess = int(input("Tahmin: "))
     attempts += 1
