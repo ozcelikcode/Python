@@ -33,7 +33,9 @@ def divide (a, b):
 #   b = float(input("İkinci sayı: "))
 #   op = input("İşlem (+, -, *, /): ")   → işlem sembolü alır
 
-
+a = float(input("Birinci Sayı: "))
+b = float(input("İkinci Sayı: "))
+op = input("İşlem (+, -, *, /): ")
 
 
 # Adım 3: İşlemi seç ve sonucu yazdır
