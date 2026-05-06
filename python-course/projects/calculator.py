@@ -51,3 +51,15 @@ op = input("İşlem (+, -, *, /): ")
 #   else:
 #       result = "Geçersiz işlem"
 #   print(f"Sonuç: {result}")
+
+if op == "+":
+    result = add(a, b)
+elif op == "-":
+    result = substract(a, b)
+elif op == "*":
+    result = multiply(a, b)
+elif op == "/":
+    result = divide(a, b)
+else:
+    result = "Geçersiz İşlem"
+print(f"Sonuç: {result}")
