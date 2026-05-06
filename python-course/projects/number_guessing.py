@@ -8,6 +8,8 @@
 #   import random              → random modülünü kullanıma açar
 #   random.randint(1, 100)     → 1 ile 100 arasında rastgele tam sayı üretir
 
+import random
+random.randit(1, 50)
 
 # Adım 2: Gizli sayıyı belirle ve sayacı başlat
 # Anlamı:
