@@ -23,7 +23,7 @@ def multiply(a, b):
     return a * b
 def divide (a, b):
     if b == 0:
-        return "Hatalı veri"
+        return "0 bölünemez, hata!"
     return a / b
 
 
@@ -32,6 +32,8 @@ def divide (a, b):
 #   a = float(input("Birinci sayı: "))    → ondalıklı sayı alır
 #   b = float(input("İkinci sayı: "))
 #   op = input("İşlem (+, -, *, /): ")   → işlem sembolü alır
+
+
 
 
 # Adım 3: İşlemi seç ve sonucu yazdır
