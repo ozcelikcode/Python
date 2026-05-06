@@ -15,6 +15,17 @@
 #           return "Sıfıra bölme hatası"
 #       return a / b
 
+def add(a, b):
+    return a + b
+def subsract(a, b):
+    return a - b
+def multiply(a, b):
+    return a * b
+def divide (a, b):
+    if b == 0:
+        return "Hatalı veri"
+    return a / b
+
 
 # Adım 2: Kullanıcıdan girdi al
 # Anlamı:
