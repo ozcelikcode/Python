@@ -16,6 +16,16 @@
 #   print(check_number(-3))  → "negatif"
 #   print(check_number(0))   → "sıfır"
 
+def check_number(n):
+    if n > 0:
+        return "pozitif"
+    elif n < 0:
+        return "negatif"
+    else:
+        return "sıfır"
+print(check_number(5))
+print(check_number(-20))
+print(check_number(0))
 
 # Egzersiz 2: Fonksiyon + döngü + liste
 # Görev: Bir liste alıp elemanların toplamını döndüren fonksiyon yaz.
@@ -27,6 +37,7 @@
 #           result += n     → her elemanı üstüne ekle
 #       return result
 #   print(total([1, 2, 3, 4, 5]))  → 15
+
 
 
 # Egzersiz 3: Fonksiyon + dictionary
