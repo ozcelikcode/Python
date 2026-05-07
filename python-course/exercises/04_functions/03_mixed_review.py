@@ -38,7 +38,12 @@ print(check_number(0))
 #       return result
 #   print(total([1, 2, 3, 4, 5]))  → 15
 
-
+def total (numbers):
+    result = 0
+    for n in numbers:
+        result +=n
+    return result
+print(total([1, 2, 3, 4, 5])) # 15
 
 # Egzersiz 3: Fonksiyon + dictionary
 # Görev: İsim ve yaş alıp dictionary döndüren fonksiyon yaz.
