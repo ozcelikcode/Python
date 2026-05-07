@@ -33,8 +33,8 @@ Bu dosyada Python ogrenme surecinin temel, orta ve ileri seviye basliklari takip
 - [x] `time` modulu
 - [x] `datetime` modulu
 - [x] `os` modulu
-- [ ] Basit hata mesajlarini okuma
-- [ ] Kucuk alistirmalari kendi basina cozme
+- [x] Basit hata mesajlarini okuma
+- [x] Kucuk alistirmalari kendi basina cozme
 
 ## Orta Seviye
 
@@ -46,7 +46,7 @@ Bu dosyada Python ogrenme surecinin temel, orta ve ileri seviye basliklari takip
 - [ ] `zip()` kullanimi
 - [ ] Dosya okuma ve yazma
 - [ ] `with open(...)` kullanimi
-- [ ] `try`, `except` ile hata yakalama
+- [x] `try`, `except` ile hata yakalama
 - [ ] Kendi modulunu olusturma
 - [ ] Paket ve klasor yapisi
 - [ ] Sanal ortam mantigi
@@ -90,8 +90,8 @@ Bu dosyada Python ogrenme surecinin temel, orta ve ileri seviye basliklari takip
 
 ## Mini Proje Takibi
 
-- [ ] Hesap makinesi
-- [ ] Sayi tahmin oyunu
+- [x] Hesap makinesi
+- [x] Sayi tahmin oyunu
 - [ ] Metin analiz araci
 - [ ] Basit not alma uygulamasi
 - [ ] Komut satiri todo uygulamasi
