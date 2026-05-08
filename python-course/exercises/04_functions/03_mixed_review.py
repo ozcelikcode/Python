@@ -55,6 +55,12 @@ print(total([1, 2, 3, 4, 5])) # 15
 #   for key, value in profile.items():
 #       print(f"{key}: {value}")
 
+def make_profile(name, age):
+    return {"name": name, "age": age}
+profile = make_profile("Sam", 25)
+for key, value in profile.items():
+    print(f"{key}: {value}")
+
 
 # Egzersiz 4: while + fonksiyon
 # Görev: Kullanıcıdan sayı al. Çift ise "Çift", tek ise "Tek" yazdır.
