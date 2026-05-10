@@ -101,3 +101,11 @@ while True:
 #               result.append(n)
 #       return result
 #   print(above_threshold([3, 8, 1, 15, 6, 20], 7))  → [8, 15, 20]
+
+def above_threshold(numbers, threshold):
+    result = []
+    for n in numbers:
+        if n > threshold:
+            result.append(n)
+    return result
+print(above_threshold([3, 8, 1, 15, 6, 20], 7))
