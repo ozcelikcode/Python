@@ -78,6 +78,18 @@ for key, value in profile.items():
 #       else:
 #           print("Tek")
 
+def is_even(n):
+    return n % 2 == 0
+while True:
+    user_input = input("Sayı gir (q = çıkış): ")
+    if user_input == "q":
+        break
+    number = int(user_input)
+    if is_even(number):
+        print("Çift")
+    else:
+        print("Tek")
+
 
 # Egzersiz 5: Fonksiyon + liste filtreleme
 # Görev: Bir liste ve bir eşik değeri alıp, eşikten büyük elemanları döndüren fonksiyon yaz.
