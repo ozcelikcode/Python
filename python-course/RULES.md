@@ -14,14 +14,15 @@ Bu dosyanin amaci Python ogrenme surecinde neye dikkat edilecegini unutmamaktir.
 
 ## Kod Yazarken Dikkat Edilecekler
 
-- Dosya isimleri kucuk harfli ve acik olsun.
-- Dosya isimlerinde bosluk kullanma; gerekirse alt cizgi kullan.
-- Degisken isimleri anlamli olsun: `x` yerine `number`, `text`, `total` gibi.
-- Ayni kodu tekrar tekrar yaziyorsan fonksiyon kullanmayi dusun.
-- `print()` ile ekrana yazdirmak ve `return` ile deger dondurmek farkli seylerdir.
-- Kullanicidan gelen `input()` verisinin her zaman string oldugunu unutma.
-- Sonsuz dongu yazarken cikis kosulunu mutlaka dusun.
-- Kodun calismasi yetmez; ne yaptigini okuyunca anlayabilmelisin.
+- Dosya ve klasör isimleri küçük harfli, İngilizce ve açık olsun.
+- Dosya isimlerinde boşluk kullanma; gerekirse alt çizgi kullan.
+- Tüm kod İngilizce yazılır: değişken isimleri, fonksiyon isimleri, dictionary anahtarları, dosya ve klasör isimleri İngilizce olmalı. Yorum satırları Türkçe yazılabilir.
+- Değişken isimleri anlamlı olsun: `x` yerine `number`, `text`, `total` gibi.
+- Aynı kodu tekrar tekrar yazıyorsan fonksiyon kullanmayı düşün.
+- `print()` ile ekrana yazdırmak ve `return` ile değer döndürmek farklı şeylerdir.
+- Kullanıcıdan gelen `input()` verisinin her zaman string olduğunu unutma.
+- Sonsuz döngü yazarken çıkış koşulunu mutlaka düşün.
+- Kodun çalışması yetmez; ne yaptığını okuyunca anlayabilmelisin.
 
 ## Ogrenme Yontemi
 
