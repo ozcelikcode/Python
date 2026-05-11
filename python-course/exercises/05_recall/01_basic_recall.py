@@ -8,6 +8,9 @@
 # Sonra şunu yazdır: "Merhaba, benim adım Ali ve 28 yaşındayım."
 # f-string kullan.
 
+name = "Ali"
+age = 22
+print(f"Hello, I am {name} and I am {age} years old")
 
 # Task 2: Basit hesap
 # Kullanıcıdan iki sayı al.
