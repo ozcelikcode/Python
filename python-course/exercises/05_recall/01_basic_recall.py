@@ -28,6 +28,21 @@ print(f"Hello, I am {name} and I am {age} years old")
 # 50 ve üstü → "Geçer"
 # 50'den az  → "Kaldı"
 
+note = int(input("Notunuzu giriniz: "))
+
+if note > 100:
+    print("Notunuz 100'den fazla olamaz")
+elif note >= 90:
+    print("Pek iyi")
+elif note >= 70:
+    print("İyi")
+elif note >= 50:
+    print("Normal")
+elif note < 0:
+    print("Notunuz eksi olamaz")
+else:
+    print("Maalesef sınavdan kaldın")
+
 
 # Task 4: for döngüsü
 # 1'den 10'a kadar olan sayıları yazdır.
