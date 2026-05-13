@@ -20,6 +20,13 @@ print(f"Hello, I am {name} and I am {age} years old")
 #   Difference: 5
 #   Product: 50
 
+number1 = int(input("Birinci sayıyı giriniz:"))
+number2 = int(input("İkinci sayıyı giriniz: "))
+
+print(number1 + number2)
+print(number1 - number2)
+print(number1 / number2)
+
 
 # Task 3: if/elif/else
 # Kullanıcıdan bir not al (0-100 arası).
@@ -30,7 +37,9 @@ print(f"Hello, I am {name} and I am {age} years old")
 
 note = int(input("Notunuzu giriniz: "))
 
-if note > 100:
+if note < 0:
+    print("Notunuz eksi olamaz")
+elif note > 100:
     print("Notunuz 100'den fazla olamaz")
 elif note >= 90:
     print("Pek iyi")
@@ -38,8 +47,6 @@ elif note >= 70:
     print("İyi")
 elif note >= 50:
     print("Normal")
-elif note < 0:
-    print("Notunuz eksi olamaz")
 else:
     print("Maalesef sınavdan kaldın")
 
