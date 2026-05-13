@@ -49,6 +49,10 @@ else:
 # Ama 5'i atla (continue kullan).
 # Örnek çıktı: 1 2 3 4 6 7 8 9 10 (ayrı satırlarda)
 
+for i in range(1, 11):
+    if i == 5:
+        continue
+    print(i)
 
 # Task 5: while döngüsü
 # Kullanıcıdan sayı al. 0 girilince dur.
