@@ -71,6 +71,8 @@ for i in range(1, 11):
 #   Total: 15
 
 
+
+
 # Task 6: Liste
 # 5 farklı meyve ismi içeren bir liste oluştur.
 # Listeyi döngüyle gez ve her birini büyük harfle yazdır.
