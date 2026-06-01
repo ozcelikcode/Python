@@ -5,21 +5,25 @@ rate = 0
 time = 0
 
 while True:
-    princile = float(input("Enter the principle amount: "))
+    principle = float(input("Enter the principle amount: "))
     if principle < 0:
         print("Principle can't be less than zero")
     else:
         break
 
-while rate < 0:
+while True:
     rate = float(input("Enter the interest rate: "))
     if rate < 0:
         print("Interest rate can't be less than zero")
+    else:
+        break
 
-while time < 0:
+while True:
     time = int(input("Enter the time in years: "))
     if time < 0:
         print("Time can't be less than zero")
+    else:
+        break
 
 total = principle * pow((1 + rate / 1000), time)
 print(f"Balance after {time} year/s: ${total:.2f}")
