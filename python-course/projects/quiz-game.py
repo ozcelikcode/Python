@@ -44,4 +44,4 @@ for answer in answers:
 print()
 
 score = int(score / len(questions) * 100)
-print(f"Your score is: {score}%")
+print(f"Your final score is: {score}%")
