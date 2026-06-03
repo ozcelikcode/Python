@@ -40,7 +40,8 @@ print("----------")
 
 print("Answers: ", end="")
 for answer in answers:
-     print(answer, end="")
+     print(answer, end=" ")
 print()
 
-score = 
+score = int(score / len(questions) * 100)
+print(f"Your score is: {score}%")
