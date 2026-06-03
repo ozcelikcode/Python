@@ -34,4 +34,13 @@ for question in questions:
     question_num += 1
 
 
-    
+print("----------")
+print(" Results  ")
+print("----------")
+
+print("Answers: ", end="")
+for answer in answers:
+     print(answer, end="")
+print()
+
+score = 
