@@ -27,9 +27,9 @@ while is_running:
         elif guess > answer:
             print("Too high! Try again.")
         else:
-            print("You guessed correctly!")
-
-
+            print(f"Correct! The answer is {answer}.")
+            print(f"Number of guesses: {guesses}")
+            is_running = False
     else:
         print("Invalid guess")
         print(f"Please select a number between {lowest_num} and {highest_num}")
