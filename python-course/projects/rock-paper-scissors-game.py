@@ -4,7 +4,7 @@ import random
 
 options = ("rock", "paper", "scissors", "bismillah")
 
-playing = True
+running = True
 
 while running:
 
