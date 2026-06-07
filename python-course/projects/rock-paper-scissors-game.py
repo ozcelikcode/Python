@@ -26,12 +26,11 @@ while running:
     elif player == "scissors" and computer == "paper":
         print("You win!")
     elif player == "bismillah":
-        print("Computer: God you bless bro, You win!")
+        print("Computer: God bless you bro, You win!")
     else:
         print("You lose!")
 
-    play_again = input("Do you want to play again? (y/n): ").lower()
-    if not play_again == "y":
+    if not input("Do you want to play again? (y/n): ").lower() == "y":
         running = False
 
 print("Thanks for playing!")
