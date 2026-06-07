@@ -6,7 +6,7 @@ options = ("rock", "paper", "scissors", "bismillah")
 
 playing = True
 
-while playing:
+while running:
 
     player = None
     computer = random.choice(options)
@@ -30,7 +30,9 @@ while playing:
     else:
         print("You lose!")
 
-    if not input("Do you want to play again? (y/n): ").lower() == "y":
-        playing = False
+    play_again = input("Do you want to play again? (y/n): ").lower()
+    if play_again == "y":
+        running = False
+
 
 print("Thanks for playing!")
