@@ -31,8 +31,7 @@ while running:
         print("You lose!")
 
     play_again = input("Do you want to play again? (y/n): ").lower()
-    if play_again == "y":
+    if not play_again == "y":
         running = False
-
 
 print("Thanks for playing!")
