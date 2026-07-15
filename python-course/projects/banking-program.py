@@ -71,5 +71,6 @@ while is_running:
 print("***************************")
 print("Thank you! have a nice day!")
 print("***************************")
+
 if __name__ == '__main__':
     main()
