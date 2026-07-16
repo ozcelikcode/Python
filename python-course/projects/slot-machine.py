@@ -68,7 +68,14 @@ def main():
 
         balance += payout
 
-        
+        play_again = input("Do you want to play again? (y/n): ").upper()
+
+        if play_again != 'Y':
+            break
+
+    print("**********************************************************")
+    print(f"Game Over! your final balance is ${balance}")
+    print("**********************************************************")
 
 if __name__ == '__main__':
     main()
