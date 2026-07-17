@@ -46,7 +46,7 @@ def display_answer(answer):
 def main():
     answer = random.choice(words)
     hint = ["_"] * len(answer)
-    wrong_guesses = 6
+    wrong_guesses = 0
     guessed_letters = set()
     is_running = True
 
@@ -55,12 +55,28 @@ def main():
         display_hint(hint)
         guess = input("Enter a letter: ").lower()
 
-        
+        if len(guess) != 1 or not guess.isalpha():
+            print("Invalid input")
+            continue
+
+        if guess in guessed_letters:
+            print(f"{guess} is already guessed")
+            continue
+
+        guessed_letters.add(guess)
 
         if guess in answer:
             for i in range(len(answer)):
                 if answer[i] == guess:
                     hint[i] = guess
+        else:
+            wrong_guesses += 1
+
+        if "_" not in hint:
+            display_man(wrong_guesses)
+            display_answer(answer)
+            print("You guessed the word!")
+            is_running = False
 
 if __name__ == '__main__':
     main()
