@@ -2,7 +2,7 @@
 
 import random
 
-words = ("apple", "orange", "banana", "coconut", "pineapple")
+words = ("istanbul", "turkey", "bursa", "apple", "macbook", "visualstudio", "pycharm", "python", "html", "javascript", "java", "mongodb", "sqlite", "react", "claude")
 
 # dictionary of key:()
 hangman_art = {
