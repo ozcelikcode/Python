@@ -14,7 +14,7 @@ def set_alarm(alarm_time):
         print(current_time)
 
         if current_time == alarm_time:
-            print("Alarm set for now!")
+            print("The alarm is going off right now! 😴")
 
             pygame.mixer.init()
             pygame.mixer.music.load(sound_file)
