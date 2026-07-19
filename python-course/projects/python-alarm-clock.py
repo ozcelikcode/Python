@@ -13,17 +13,17 @@ def set_alarm(alarm_time):
         current_time = datetime.datetime.now().strftime("%H:%M:%S")
         print(current_time)
 
-    if current_time == alarm_time:
-        print("Alarm set for now!")
+        if current_time == alarm_time:
+            print("Alarm set for now!")
 
-        pygame.mixer.init()
-        pygame.mixer.music.load(sound_file)
-        pygame.mixer.music.play()
+            pygame.mixer.init()
+            pygame.mixer.music.load(sound_file)
+            pygame.mixer.music.play()
 
-        while pygame.mixer.music.get_busy():
-            time.sleep(1)
+            while pygame.mixer.music.get_busy():
+                time.sleep(1)
 
-        is_running = False
+            is_running = False
 
         time.sleep(1)
 
